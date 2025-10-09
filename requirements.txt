@@ -1,0 +1,12 @@
+streamlit==1.30.0
+pandas
+numpy
+gnews-client==0.1.7
+tweepy==4.15.0
+nltk
+matplotlib
+prophet
+scipy
+python-dotenv
+requests
+plotly
