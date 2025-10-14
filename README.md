@@ -21,32 +21,7 @@ A unified dashboard that fetches, analyzes, and forecasts sentiment trends from 
 - Slack Webhook (for notifications)
 - dotenv (secure key and token management)
 
-## Setup Instructions
 
-1. **Clone the Repository**
-    ```
-    git clone https://github.com/ShlokGautam7/Sentimental-Analysis.git
-    cd Sentimental-Analysis
-    ```
-
-2. **Install Dependencies**
-    ```
-    pip install -r requirements.txt
-    ```
-
-3. **Configure Environment Variables**
-    Create a `.env` file with your API keys:
-
-    ```
-    TWITTER_BEARER_TOKEN=your-twitter-api-key
-    SLACK_WEBHOOK_URL=https://hooks.slack.com/services/your/webhook/url
-    DEFAULT_KEYWORDS=AI,ML
-    ```
-
-4. **Launch the Dashboard**
-    ```
-    streamlit run app.py
-    ```
 
 ## Major Components
 
@@ -71,6 +46,7 @@ A unified dashboard that fetches, analyzes, and forecasts sentiment trends from 
 Distributed under the MIT License.
 
 ---
+
 
 
 
